@@ -52,9 +52,50 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressOpt(sender: UIButton) {
+        
+        //Vamos a utilizar Switch para controlar el flujo de la operación
+        
+        
+        switch lastPressOpt {
+        
+        case "=":
+            result = lastNumPress
+            
+        case "+":
+            result = result + lastNumPress
+        case "-":
+            result = result - lastNumPress
+        case "*":
+            result = result * lastNumPress
+        case "/":
+            result = result / lastNumPress
+            
+        default:
+            print("Hay un error, por favor corregirlo")
+        
+        
+        }
+        
+        lastNumPress = 0
+        lblResult.text = ("\(result)")
+        
+        if (sender.titleLabel!.text == "=") {
+        
+        result = 0
+            
+        }
+        
+        lastPressOpt = sender.titleLabel!.text as String!
+        
     }
  
     @IBAction func clearBtn(sender: UIButton) {
+        
+        result = 0
+        lastNumPress = 0
+        lastPressOpt = "="
+        lblResult.text = "\(result)"
+        
     }
 }
 
