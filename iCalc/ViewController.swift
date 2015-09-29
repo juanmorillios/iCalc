@@ -36,11 +36,7 @@ class ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+   
     @IBAction func pressNum(sender: UIButton) {
         
         
@@ -85,7 +81,7 @@ class ViewController: UIViewController {
             
         }
         
-        lastPressOpt = sender.titleLabel!.text as String!
+        lastPressOpt = sender.titleLabel!.text! as String!
         
     }
  

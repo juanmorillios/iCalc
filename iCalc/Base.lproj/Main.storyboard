@@ -106,16 +106,6 @@
                                     <action selector="pressOpt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ku8-Yo-QEC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xm5-TG-zj5">
-                                <rect key="frame" x="293" y="285" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="/">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="pressOpt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5n6-95-cOE"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ay-WW-BLY">
                                 <rect key="frame" x="293" y="342" width="30" height="30"/>
                                 <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -137,7 +127,7 @@
                                 <rect key="frame" x="197" y="342" width="30" height="30"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="pressNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdW-S0-zAO"/>
+                                    <action selector="pressOpt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKV-Cv-xOm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7b-vG-P8x">
@@ -145,6 +135,16 @@
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="pressNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TdW-VZ-7bk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xm5-TG-zj5">
+                                <rect key="frame" x="293" y="285" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressOpt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5n6-95-cOE"/>
                                 </connections>
                             </button>
                         </subviews>
