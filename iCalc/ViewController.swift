@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     var result: Float = 0
     
+    
+    
     //Declaramos la variable que va a mantener el último numero pulsado
     
     var lastNumPress: Float = 0
